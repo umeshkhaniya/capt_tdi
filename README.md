@@ -9,4 +9,4 @@ Therefore, analyzing the solar power market in the USA is very important for sol
 I am proposing this project for the data incubator data engineering program. In this project, I will have large data sets from the solar radiation database from NREL (National Renewable Energy Laboratory) and the Photovoltaic (PV) rooftop database. The plan here is to use Amazon S3 for data storage, Apache Spark for data processing, PostgreSQL for analysis.  Airflow will be used to monitor the ETL workflow pipeline and Tableau will be used to visualize the final dataset.
 
 
-Initial data processing tutorial: solar_radition_data.ipynb
+Initial data processing tutorial: solar_radiation_data.ipynb
