@@ -1,2 +1,10 @@
-# Introduction
-This is the project for data engineer.
+# Potential Solar Market
+This project is build up to analyse the solar radation based on the lattitude and longitude data. We will also use the Photovoltaic (PV) rooftop database to find the
+potential region for solar panel.
+
+# Introduction: 
+As the world is driving towards the clean energy, solar power in the clean and  renewable source of energy. The urban solar market has the great future.
+Therefore, analyzing the solar power market in the US is important for solar industries. By keeping this mind, we are  using Photovoltaic (PV) rooftop database such that only PV rooftops can be able to build up atleast one solar planel
+
+
+I am proposing this project for the data incubator data enegineering program. In this project, we will have large data sets from solar radiation database from NREL (National Renewable Energy Laboratory) and Photovoltaic (PV) rooftop database. Plan here is to use Amazon S3 for data storage, Apache Spark for data processing, PostgreSQL for analysis on AWS. Airflow will be used to monitor the workflow and Tableau will be used to visualize final dataset.
