@@ -1,5 +1,5 @@
 # Potential Solar Market
-This project is to analyze solar radiation based on the latitude and longitude data. We will also use the Photovoltaic (PV) rooftop database to find the potential region for the solar panel. This project will accurately predict the potential place for solar industry.
+This project is to analyze solar radiation based on the latitude and longitude data. I will also use the Photovoltaic (PV) rooftop database to find the potential region for the solar panel. This project will accurately predict the potential place for solar industry.
 
 # Introduction: 
 Solar power is a clean and  renewable source of energy. As the world is moving to clean energy, the urban solar market has a great future in the world.
