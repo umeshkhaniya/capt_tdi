@@ -10,6 +10,16 @@ Therefore, analyzing the solar power market  is very important for solar industr
 - PhotoValtic Data Source for year 2013: 6 GB
 
 # ETL Pipleline
+- Used the Pyspark for analysis data in aws EMR cluster.
 
+# Bootstarping Script
+The software and dependencies requiremnts can be found in bootstrap_cap.sh file
 
-Initial data processing tutorial: solar_radiation_data.ipynb
+# Scripts
+The jupyter notebook is provided here is used  in running  EMR cluster to setup the system.
+Python Script can directly used to run in the EC2 instance.
+1. Creating the S3 bucket, EMR cluster using boto3: aws_system_preparation.ipynb
+2. Processing the 1.6 TB data using the partition in EMR jupyter Notebook. This will save the data in local S3 bucket.
+3. Processing Photovoltic data using EMR jupyter Notebook and saved into local S3 bucket.
+4. This will join the two data using the Geohash and final data is stored in S3 bucket for analysis.
+
