@@ -1,12 +1,15 @@
-# Potential Solar Market
-This project is to analyze solar radiation based on the latitude and longitude data. I will also use the Photovoltaic (PV) rooftop database to find the potential region for the solar panel. This project will accurately predict the potential place for solar industry.
+# Solar Market Analysis in New York City And Albany
+This project involves the potential location for solar market in New York City And Albany based on zip code. The datas used in the project are from solar radiation dataset and photovoltic rooftop data set. The data used here is from year 2013 since we only have common data for both set for year 2013. This project will accurately predict the potential location for solar industry.
 
 # Introduction: 
 Solar power is a clean and  renewable source of energy. As the world is moving to clean energy, the urban solar market has a great future in the world.
-Therefore, analyzing the solar power market in the USA is very important for solar industries. By keeping in mind, I am planning to use a  Photovoltaic (PV) rooftop database such that only PV rooftops can be able to build up at least one solar panel.
+Therefore, analyzing the solar power market  is very important for solar industries. By keeping in mind, this project is investigaing the zip code location for  solar panel market.
 
+# Data Source 
+- Solar radiation data for year 2013: 1.6 TB
+- PhotoValtic Data Source for year 2013: 6 GB
 
-I am proposing this project for the data incubator data engineering program. In this project, I will have large data sets from the solar radiation database from NREL (National Renewable Energy Laboratory) and the Photovoltaic (PV) rooftop database. The plan here is to use Amazon S3 for data storage, Apache Spark for data processing, PostgreSQL for data storage database.  Airflow will be used to monitor the ETL workflow pipeline and Tableau will be used to visualize the final dataset.
+# ETL Pipleline
 
 
 Initial data processing tutorial: solar_radiation_data.ipynb
