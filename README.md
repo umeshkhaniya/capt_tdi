@@ -22,4 +22,8 @@ Python Script can directly used to run in the EC2 instance.
 2. Processing the 1.6 TB data using the partition in EMR jupyter Notebook. This will save the data in local S3 bucket.
 3. Processing Photovoltic data using EMR jupyter Notebook and saved into local S3 bucket.
 4. This will join the two data using the Geohash and final data is stored in S3 bucket for analysis.
+5. Small sample of data is loaded into s3 bucket and use the visualization. 
+6. Heroku is used for deployement of data.
+# Frond end website on Heroku
+Link: 
 
