@@ -12,8 +12,17 @@ Therefore, analyzing the solar power market  is very important for solar industr
 # ETL Pipleline
 - Used the Pyspark for analysis data in aws EMR cluster.
 
-# Bootstarping Script
+# Bootstrapping Script
 The software and dependencies requiremnts can be found in bootstrap_cap.sh file
+ sudo python3 -m pip install \
+  awscli \
+ boto3 \
+ ec2-metadata \
+ s3fs \
+ cython \
+ h5py \
+ pygeohash \
+ shapely 
 
 # Scripts
 The jupyter notebook is provided here is used  in running  EMR cluster to setup the system.
