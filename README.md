@@ -22,7 +22,8 @@ The software and dependencies requiremnts can be found in bootstrap_cap.sh file
  cython \
  h5py \
  pygeohash \
- shapely 
+ shapely \
+ uszipcode
 
 # Scripts
 The jupyter notebook is provided here is used  in running  EMR cluster to setup the system.
